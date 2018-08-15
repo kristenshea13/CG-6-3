@@ -22,37 +22,39 @@ namespace CG_6_3_Alice_in_wonderland
                 "thought Alice ‘without pictures or conversation?’ ";
 
 
-            
-            StringComparison search = StringComparison.OrdinalIgnoreCase;
 
-            
-            
-        
+            //StringComparison search = StringComparison.OrdinalIgnoreCase;
 
 
-
+        /*string myString = " That summer we took threes across the board  ";
+        var start = myString.IndexOf("took");
+        var end = "took".Length;*/
 
 
 
 
 
 
-        Console.ReadLine();
-
-            }
-
-       // private static string Contains(string toSearch, StringComparison search, string alice)
-        //{
-           
-            
-
-           
 
 
 
-        //}
+
+Console.ReadLine();
+
+}
+
+// private static string Contains(string toSearch, StringComparison search, string alice)
+//{
 
 
 
-    }
+
+
+
+
+//}
+
+
+
+}
 }
