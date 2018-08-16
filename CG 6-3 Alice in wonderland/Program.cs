@@ -12,7 +12,7 @@ namespace CG_6_3_Alice_in_wonderland
 
             //explain program and prompt user for word to search in one line of code using \n to add a line break and 
             //using Console.Write so user's entry is on the same line as the second sentence.
-            Console.Write("Search for words in the very first sentence in Alice in Wonderland. \nEnter word you would like to search: ");
+            Console.Write("Search for words in the very first sentence of Alice in Wonderland by Lewis Carroll. \nEnter word you would like to search: ");
 
             string toSearch = Console.ReadLine();
 
@@ -21,14 +21,32 @@ namespace CG_6_3_Alice_in_wonderland
                 "reading, but it had no pictures or conversations in it, ‘and what is the use of a book,’ " +
                 "thought Alice ‘without pictures or conversation?’ ";
 
+            var search = alice.IndexOf(toSearch);
+            var found = toSearch.Length;
+
+
+            Console.Write(found);
 
 
             //StringComparison search = StringComparison.OrdinalIgnoreCase;
 
 
-        /*string myString = " That summer we took threes across the board  ";
-        var start = myString.IndexOf("took");
-        var end = "took".Length;*/
+
+            //if (found == -1)
+            //{
+            //    Console.WriteLine("Word not found.");
+            //}
+
+            //else
+            //{
+           //         Console.WriteLine(Word found!);
+            //}
+           
+
+            //StringComparison search = StringComparison.OrdinalIgnoreCase;
+
+
+        
 
 
 
@@ -42,18 +60,6 @@ namespace CG_6_3_Alice_in_wonderland
 Console.ReadLine();
 
 }
-
-// private static string Contains(string toSearch, StringComparison search, string alice)
-//{
-
-
-
-
-
-
-
-//}
-
 
 
 }
