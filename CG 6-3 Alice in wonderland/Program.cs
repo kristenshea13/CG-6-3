@@ -21,29 +21,30 @@ namespace CG_6_3_Alice_in_wonderland
                 "reading, but it had no pictures or conversations in it, ‘and what is the use of a book,’ " +
                 "thought Alice ‘without pictures or conversation?’ ";
 
+            //var search = alice.IndexOf(toSearch);
+            //var found = toSearch.Length;
+
             var search = alice.IndexOf(toSearch);
-            var found = toSearch.Length;
 
+            //ToUpper or ToLower
 
-            Console.Write(found);
+            
 
+            if (search == -1)
+            {
+                Console.WriteLine("Word not found.");
+            }
+
+            else
+            {
+                Console.WriteLine("Word found!");
+            }
 
             //StringComparison search = StringComparison.OrdinalIgnoreCase;
 
 
 
-            //if (found = -1)
-            //{
-            //    Console.WriteLine("Word not found.");
-            //}
-
-            //else
-            //{
-           //         Console.WriteLine(Word found!);
-            //}
            
-
-            //StringComparison search = StringComparison.OrdinalIgnoreCase;
 
 
         
