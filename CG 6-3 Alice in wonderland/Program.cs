@@ -21,8 +21,7 @@ namespace CG_6_3_Alice_in_wonderland
                 "reading, but it had no pictures or conversations in it, ‘and what is the use of a book,’ " +
                 "thought Alice ‘without pictures or conversation?’ ";
 
-            //var search = alice.IndexOf(toSearch);
-            //var found = toSearch.Length;
+           
 
             var search = alice.IndexOf(toSearch);
 
