@@ -32,7 +32,7 @@ namespace CG_6_3_Alice_in_wonderland
 
 
 
-            //if (found == -1)
+            //if (found = -1)
             //{
             //    Console.WriteLine("Word not found.");
             //}
