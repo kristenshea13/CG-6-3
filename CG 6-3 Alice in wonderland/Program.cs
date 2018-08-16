@@ -9,7 +9,7 @@ namespace CG_6_3_Alice_in_wonderland
             
             //explain program and prompt user for word to search. consolidated in one line of code using \n to add a line break and 
             //Console.Write so user's entry is on the same line as the second sentence.
-            Console.Write("Search for words in the very first sentence of Alice in Wonderland by Lewis Carroll. " +
+            Console.Write("Search for a word in the very first sentence of Alice in Wonderland by Lewis Carroll. " +
                 "\n Enter word you would like to search: ");
 
             //declare user entered word as string and give a variable name
